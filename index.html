@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <title>PokeAPI</title>
+</head>
+<body>
+
+  <div class="divPrincipal">
+    <h1>Banco de Imagens dos personagens</h1>
+
+    <label for="idPokemon">Escolha o personagem:</label>
+    <select name="idPokemon" id="idPokemon">
+      <option value="0" selected disabled>Selecione..</option>
+      <option value="1">Bulbasaur</option>
+      <option value="2">Ivysaur</option>
+      <option value="3">Venusaur</option>
+      <option value="4">Charmander</option>
+      <option value="5">Charmeleon</option>
+      <option value="6">Charizard</option>
+      <option value="7">Squirtle</option>
+      <option value="8">Wartortle</option>
+      <option value="9">Blastoise</option>
+      <option value="10">Caterpie</option>
+      <option value="11">Metapod</option>
+      <option value="12">Butterfree</option>
+      <option value="13">Weedle</option>
+      <option value="14">Kakuna</option>
+      <option value="15">Beedrill</option>
+      <option value="16">Pidgey</option>
+      <option value="17">Pidgeotto</option>
+      <option value="18">Pidgeot</option>
+      <option value="19">Rattata</option>
+      <option value="20">Raticate</option>
+    </select>
+    <br>
+    
+    <button class="btn" id="mostrar">Mostrar Pokemon</button>
+    <br>
+    <div id="erro"></div>
+
+    <img src="" alt="" class="imgPersonagens" id="mostrarImagem">
+  </div>
+  <script src="js/main.js" ></script>
+</body>
+</html>
