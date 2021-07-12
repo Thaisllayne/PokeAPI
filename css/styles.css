@@ -21,10 +21,14 @@ body{
   margin-top: 5vw;
 }
 
-#idPokemon{
-  border-radius: 30px;
-  background-color: lightskyblue;
+#erro{
+  display: flex;
 }
+
+ .imgPersonagens{
+  width: 300px;
+  height: 300px;
+} 
 
 .btn{
   font-size: 15px;

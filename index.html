@@ -11,39 +11,56 @@
 <body>
 
   <div class="divPrincipal">
+
     <h1>Banco de Imagens dos personagens</h1>
 
-    <label for="idPokemon">Escolha o personagem:</label>
-    <select name="idPokemon" id="idPokemon">
-      <option value="0" selected disabled>Selecione..</option>
-      <option value="1">Bulbasaur</option>
-      <option value="2">Ivysaur</option>
-      <option value="3">Venusaur</option>
-      <option value="4">Charmander</option>
-      <option value="5">Charmeleon</option>
-      <option value="6">Charizard</option>
-      <option value="7">Squirtle</option>
-      <option value="8">Wartortle</option>
-      <option value="9">Blastoise</option>
-      <option value="10">Caterpie</option>
-      <option value="11">Metapod</option>
-      <option value="12">Butterfree</option>
-      <option value="13">Weedle</option>
-      <option value="14">Kakuna</option>
-      <option value="15">Beedrill</option>
-      <option value="16">Pidgey</option>
-      <option value="17">Pidgeotto</option>
-      <option value="18">Pidgeot</option>
-      <option value="19">Rattata</option>
-      <option value="20">Raticate</option>
-    </select>
+    <label for="nomePokemon">Digite o nome do personagem:</label>
+    <input type="text" name="nomePokemon" id="nomePokemon">
     <br>
+
+    <h1>ou</h1>
+
+    <label for="idPokemon">Informe o id do Pokémon:</label>
+    <input type="text" name="idPokemon" id="idPokemon">
+    <br>
+
     
     <button class="btn" id="mostrar">Mostrar Pokemon</button>
     <br>
-    <div id="erro"></div>
+    <div id="erro">
 
-    <img src="" alt="" class="imgPersonagens" id="mostrarImagem">
+      <img src="" alt="" class="imgPersonagens" id="mostrarImagem">
+
+      <table>
+        <tr>
+          <td>HP: </td>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <td>Attack: </td>
+          <td id="attack"></td>
+        </tr>
+        <tr>
+          <td>Defense: </td>
+          <td id="defense"></td>
+        </tr>
+        <tr>
+          <td>Special Attack: </td>
+          <td id="specialAttack"></td>
+        </tr>
+        <tr>
+          <td>Special Defense: </td>
+          <td id="specialDefense"></td>
+        </tr>
+        <tr>
+          <td>Speed: </td>
+          <td id="speed"></td>
+        </tr>
+      </table>
+
+    </div>
+
+    
   </div>
   <script src="js/main.js" ></script>
 </body>
