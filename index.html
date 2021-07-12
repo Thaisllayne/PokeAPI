@@ -9,16 +9,15 @@
   <title>PokeAPI</title>
 </head>
 <body>
-
   <div class="divPrincipal">
 
-    <h1>Banco de Imagens dos personagens</h1>
+    <h1>Pokémon</h1>
 
     <label for="nomePokemon">Digite o nome do personagem:</label>
     <input type="text" name="nomePokemon" id="nomePokemon">
     <br>
 
-    <h1>ou</h1>
+    <h3>ou</h3>
 
     <label for="idPokemon">Informe o id do Pokémon:</label>
     <input type="text" name="idPokemon" id="idPokemon">
@@ -26,12 +25,15 @@
 
     
     <button class="btn" id="mostrar">Mostrar Pokemon</button>
+    <button class="btn" id="limpar">Limpar Pesquisa</button>
     <br>
-    <div id="erro">
 
+    <div id="erro"></div>
+
+    <div id="divHabilidades" class="divHabilidades">
       <img src="" alt="" class="imgPersonagens" id="mostrarImagem">
 
-      <table>
+      <table class="habilidadesPersonagens">
         <tr>
           <td>HP: </td>
           <td id="hp"></td>
